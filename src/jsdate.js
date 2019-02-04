@@ -736,7 +736,7 @@
         'nl': {
             monthNames: ['Januari','Februari','Maart','April','Mei','Juni','July','Augustus','September','Oktober','November','December'],
             monthNamesShort: ['Jan','Feb','Mar','Apr','Mei','Jun','Jul','Aug','Sep','Okt','Nov','Dec'],
-            dayNames:','['Zondag','Maandag','Dinsdag','Woensdag','Donderdag','Vrijdag','Zaterdag'],
+            dayNames: ['Zondag','Maandag','Dinsdag','Woensdag','Donderdag','Vrijdag','Zaterdag'],
             dayNamesShort: ['Zo','Ma','Di','Wo','Do','Vr','Za'],
             formatString: '%Y-%m-%d %H:%M:%S'
         },
