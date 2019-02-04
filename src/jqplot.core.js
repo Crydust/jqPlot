@@ -3852,7 +3852,7 @@
                     // when darkening, lowest color component can be is 60.
                     newrgb[j] = (sum > 660) ?  newrgb[j] * 0.85 : 0.73 * newrgb[j] + 90;
                     newrgb[j] = parseInt(newrgb[j], 10);
-                    (newrgb[j] > 255) ? 255 : newrgb[j];
+                    newrgb[j] = (newrgb[j] > 255) ? 255 : newrgb[j];
                 }
                 // newrgb[3] = (rgba[3] > 0.4) ? rgba[3] * 0.4 : rgba[3] * 1.5;
                 // newrgb[3] = (rgba[3] > 0.5) ? 0.8 * rgba[3] - .1 : rgba[3] + 0.2;
@@ -3870,7 +3870,7 @@
                 // newrgb[j] = parseInt(newrgb[j], 10);
                 newrgb[j] = (sum > 660) ?  newrgb[j] * 0.85 : 0.73 * newrgb[j] + 90;
                 newrgb[j] = parseInt(newrgb[j], 10);
-                (newrgb[j] > 255) ? 255 : newrgb[j];
+                newrgb[j] = (newrgb[j] > 255) ? 255 : newrgb[j];
             }
             // newrgb[3] = (rgba[3] > 0.4) ? rgba[3] * 0.4 : rgba[3] * 1.5;
             // newrgb[3] = (rgba[3] > 0.5) ? 0.8 * rgba[3] - .1 : rgba[3] + 0.2;
